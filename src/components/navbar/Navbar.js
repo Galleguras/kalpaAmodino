@@ -1,10 +1,13 @@
 import React from "react"
 
+import { Container, Box } from "@mui/material"
 const Navbar = ({}) => {
   return (
-    <div>
-      NavBar para el portafolio de kalpa y probando otra vez con la conexion ssh
-    </div>
+    <>
+      <Container maxWidth="sm">
+        <Box sx={{ bgcolor: "#cfe8fc", height: "100vh" }} />
+      </Container>
+    </>
   )
 }
 
