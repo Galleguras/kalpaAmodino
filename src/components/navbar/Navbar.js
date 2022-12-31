@@ -1,12 +1,10 @@
 import React from "react"
-
+import Bar from "../bar/index"
 import { Container, Box } from "@mui/material"
 const Navbar = ({}) => {
   return (
     <>
-      <Container maxWidth="sm">
-        <Box sx={{ bgcolor: "#cfe8fc", height: "100vh" }} />
-      </Container>
+      <Bar />
     </>
   )
 }
