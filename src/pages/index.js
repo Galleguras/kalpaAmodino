@@ -3,7 +3,7 @@ import Layout from "../components/Layout/Layout"
 import Contenedor from "../components/contenedor"
 const IndexPage = () => (
   <Layout>
-    <div>sssssss</div>
+    <div>Probamos instagram</div>
   </Layout>
 )
 
